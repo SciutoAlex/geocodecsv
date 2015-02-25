@@ -13,4 +13,4 @@ Module for Node.js that takes in a CSV text file, and geocodes each row
       return rowData.address + ", " + rowData.city + " " + rowData.state;
     }
 
-    geocodeCSV('./app/data/cost.txt', './app/data/proceduresGeocoded.txt', opts);
+    geocodeCSV('./app/data/cost.txt', './app/data/costgeocoded.txt', opts);
